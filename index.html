@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter Up</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <section>
+      <div class="m-auto flex justify-center items-center w-[600px] h-[300px]">
+        <div class="grid auto-cols-max grid-flow-col gap-5 text-center">
+          <div class="flex flex-col mr-2">
+            <h2 class="counterUp text-7xl font-semibold" data-number="10">00</h2>
+            <p class="mt-2 font-normal">Total Student</p>
+          </div>
+          <div class="flex flex-col mr-2">
+            <h2 class="counterUp text-7xl font-semibold ">00</h2>
+            <p class="mt-2 font-normal">Available Student</p>
+          </div>
+          <div class="flex flex-col mr-2">
+            <h2 class="counterUp text-7xl font-semibold ">00</h2>
+            <p class="mt-2 font-normal">Teacher</p>
+          </div>
+          <div class="flex flex-col mr-2">
+            <h2 class="counterUp text-7xl font-semibold ">00</h2>
+            <p class="mt-2 font-normal">Class Room</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
